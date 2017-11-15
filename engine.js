@@ -96,7 +96,7 @@ module.exports = function (options) {
 
         var footer = `issue: ${issueLink}`;
 
-        commit(head + '\n\n' + body + '\n\n' + footer);
+        commit(header + '\n\n' + body + '\n\n' + footer);
       });
     }
   };
