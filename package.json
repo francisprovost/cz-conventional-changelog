@@ -1,19 +1,18 @@
 {
-  "name": "cz-conventional-changelog",
-  "version": "0.0.0-semantically-released.0",
+  "name": "cz-fprovost-sm360-changelog",
+  "version": "1.0.0",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "echo 'Tests need to be setup!'",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "echo 'Tests need to be setup!'"
   },
-  "homepage": "https://github.com/commitizen/cz-conventional-changelog",
+  "homepage": "https://github.com/francisprovost/cz-fprovost-sm360-changelog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/cz-conventional-changelog.git"
+    "url": "https://github.com/francisprovost/cz-fprovost-sm360-changelog.git"
   },
-  "author": "Jim Cummins <jimthedev@gmail.com>",
+  "author": "Francis Provost <francis.provost@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "conventional-commit-types": "^2.0.0",
